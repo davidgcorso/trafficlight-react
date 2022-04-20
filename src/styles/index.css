@@ -10,15 +10,33 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body {
+    background-image: url("https://img1.viajar.elperiodico.com/51/1c/e3/road-trip-1058x701.jpg");
+    background-repeat: no-repeat;
+    background-size:cover
+}
+.pole {
+  background-color: black;
+  display: inline-block;
+    padding: 15px;
+    justify-content: center;
+    position: absolute;
+    left: 47.5%;  
+    height: 300px;
+   
+}
 .traffic-light {
     background-color: black;
     display: inline-block;
     padding: 15px;
-    margin: auto;
+    justify-content: center;
+    position: absolute;
+    left: 45%;
+    top:20%;
 }
 .light {
-    width: 150px;
-    height: 150px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
 }
 .red { background: rgb(184, 11, 11);}
